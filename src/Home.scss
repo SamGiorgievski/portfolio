@@ -1,0 +1,23 @@
+.Home {
+display: flex;
+flex-direction: column;
+
+}
+
+.Home__title1 {
+  margin-top: 60px;
+  margin-left: 60px;
+}
+
+.Home__title2 {
+  margin-left: 120px;
+}
+
+.Home__image {
+  margin-top: 30px;
+width: 1000px;
+height: 400px;
+position: relative;
+left: 50%;
+transform: translateX(-50%);
+}
