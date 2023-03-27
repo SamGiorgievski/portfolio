@@ -1,27 +1,51 @@
 .home {
-display: flex;
-flex-direction: column;
-
+  display:flex;
+  flex-direction: column;
 }
 
-.home__title1 {
+// About me
+
+.about-me {
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 100vh;
+}
+
+.about-me__title1 {
   margin-top: 60px;
   margin-left: 60px;
 }
 
-.home__title2 {
+.about-me__title2 {
   margin-left: 120px;
 }
 
-.home__image {
-  margin-top: 30px;
-width: 1000px;
-height: 400px;
-position: relative;
-left: 50%;
-transform: translateX(-50%);
-  &:hover {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  }
+.image-box {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
 
+.image-box__image {
+  margin-top: 30px;
+  width: 1000px;
+  height: 400px;
+  position: relative;
+    &:hover {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+}
+
+.image-box__text {
+  text-align: center;
+  width: 800px;
+  line-height: 1.8;
+}
+
+// Projects
+
+.projects {
+  height: 100vh;
 }
