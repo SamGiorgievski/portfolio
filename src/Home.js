@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.scss';
 import Carousel from 'react-bootstrap/Carousel';
+import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
@@ -20,7 +21,7 @@ export default function Home() {
       <div className="projects">
         <h1 className="projects__title"> Projects</h1>
         <div>
-        <Carousel>
+        <Carousel className="projects__carousel" interval={null}>
           <Carousel.Item>
             <img
               className="d-block w-100"
@@ -28,8 +29,12 @@ export default function Home() {
               alt="First slide"
             />
             <Carousel.Caption>
-              <h3>First slide label</h3>
+              <h3>EatSafely</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <div className="carousel__buttons">
+                <Button variant="secondary">Info</Button>
+                <Button variant="secondary">Github</Button>
+              </div>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>

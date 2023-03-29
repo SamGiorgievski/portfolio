@@ -29,6 +29,7 @@ height: 100vh;
 
 .image-box__image {
   margin-top: 30px;
+  margin-bottom: 30px;
   width: 1000px;
   height: 400px;
   position: relative;
@@ -53,3 +54,12 @@ height: 100vh;
   align-items: center;
 }
 
+.projects__title {
+  margin-bottom: 50px;
+}
+
+.carousel__buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
