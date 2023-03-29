@@ -20,11 +20,10 @@ export default function Home() {
 
       <div className="projects">
         <h1 className="projects__title"> Projects</h1>
-        <div>
-        <Carousel className="projects__carousel" interval={null}>
+        <Carousel className="projects__carousel" interval={null} fade={true} >
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block carousel__image"
               src="https://via.placeholder.com/600x400"
               alt="First slide"
             />
@@ -32,14 +31,14 @@ export default function Home() {
               <h3>EatSafely</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
               <div className="carousel__buttons">
-                <Button variant="secondary">Info</Button>
-                <Button variant="secondary">Github</Button>
+                <Button variant="secondary" className="carousel__button">Info</Button>
+                <Button variant="secondary" className="carousel__button" href="https://github.com/SamGiorgievski/EatSafely">Github</Button>
               </div>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block carousel__image"
               src="https://via.placeholder.com/600x400"
               alt="Second slide"
             />
@@ -51,7 +50,7 @@ export default function Home() {
           </Carousel.Item>
           <Carousel.Item>
             <img
-              className="d-block w-100"
+              className="d-block carousel__image"
               src="https://via.placeholder.com/600x400"
               alt="Third slide"
             />
@@ -64,7 +63,6 @@ export default function Home() {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-        </div>
       </div>
     </div>
   )
