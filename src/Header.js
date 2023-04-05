@@ -10,9 +10,8 @@ export default function Header() {
           Sam Giorgievski
         </h1>
         <div className="header__buttons">
-          <Button variant="secondary" className="header__button">Github</Button>
-          <Button variant="secondary" className="header__button">Linkedin</Button>
-          <Button variant="secondary" className="header__button">Secondary</Button>
+          <Button variant="secondary" className="header__button" href="https://github.com/SamGiorgievski">Github</Button>
+          <Button variant="secondary" className="header__button" href="https://www.linkedin.com/in/samgiorgievski/">Linkedin</Button>
         </div>
       </div>
   )
