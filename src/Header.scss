@@ -5,6 +5,12 @@
   height: 80px;
   width: 100%;
   align-items: center;
+  justify-content: space-between;
+}
+
+.header-flex {
+  display:flex;
+  flex-direction: row;
 }
 
 .header__title {
@@ -15,4 +21,25 @@
 .header__button {
   margin: 10px;
   width: 100px;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 0 2rem;
+  list-style: none;
+  justify-content: center;
+  margin: 0;
+  
+}
+
+.header__nav-buttons {
+  margin: 10px;
+  text-decoration: none;
+  &:hover {
+    background-color: #777;
+  }
+  
+
 }
