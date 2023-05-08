@@ -10,13 +10,13 @@
 display: flex;
 flex-direction: column;
 align-items: center;
-height: 100vh;
+height: 90vh;
 border-bottom: black;
 border-bottom-style: solid;
 }
 
 .about-me__title {
-  margin-top: 60px;
+  margin-top: 20px;
   width: 80%;
 }
 
@@ -61,10 +61,12 @@ border-bottom-style: solid;
 
 .carousel {
   width: 70%;
+  padding-bottom: 50px;
 }
 
 .projects__title {
   margin-bottom: 50px;
+  width: 80%;
 }
 
 .carousel__buttons {
