@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div className="home">
       <div className="about-me">
-        <h1 className="about-me__title">Full-stack developer
-        </h1>
-        <h2 className="about-me__tech-stack">Tech stack:</h2>
+        <h2 className="about-me__title">Full-stack web developer
+        </h2>
+        <h3 className="about-me__tech-stack">Tech stack:</h3>
         <div className="image-box">
           <img className="image-box__image" src="https://via.placeholder.com/1000x400"></img>
           <p className="image-box__text"> 
@@ -21,7 +21,7 @@ export default function Home() {
       </div>
 
       <div className="projects">
-        <h1 className="projects__title"> Projects</h1>
+        <h2 className="projects__title"> Projects</h2>
         <Carousel className="projects__carousel" interval={null} fade={true} >
           <Carousel.Item>
             <img

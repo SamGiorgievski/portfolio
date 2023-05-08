@@ -16,13 +16,14 @@ border-bottom-style: solid;
 }
 
 .about-me__title {
-  margin-top: 20px;
+  margin-top: 30px;
   width: 80%;
 }
 
 .about-me__tech-stack {
   width: 80%;
   margin-left: 50px;
+  margin-bottom:0;
 }
 
 .image-box {
@@ -56,7 +57,7 @@ border-bottom-style: solid;
   flex-direction: column;
   height: 100vh;
   align-items: center;
-  margin-top: 50px;
+  padding-top: 50px;
 }
 
 .carousel {
