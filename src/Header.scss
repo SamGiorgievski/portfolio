@@ -1,7 +1,5 @@
 .header {
   display:flex;
-  border-bottom: solid 2px;
-  border-color: grey;
   height: 80px;
   width: 100%;
   align-items: center;
@@ -14,9 +12,10 @@
 }
 
 .header__title {
-  margin-left: 30px;
-  margin-right: 30px;
   font-family: League Spartan;
+  margin:auto;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .header__button {

@@ -1,6 +1,5 @@
 import Header from "./Header";
 import Home from "./Home";
-import Footer from "./Footer";
 import Projects from "./Projects";
 import { Link, Routes, Route } from 'react-router-dom';
 
@@ -14,7 +13,6 @@ function App() {
         <Route path ="/" index element = {<Home/>}/>
         <Route path ="/projects" index element = {<Projects/>}/>
       </Routes>
-      <Footer />
 
     </div>
   );
