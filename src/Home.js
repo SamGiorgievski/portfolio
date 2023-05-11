@@ -3,21 +3,26 @@ import './Home.scss';
 import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import selfie from "./assets/profile_pic.jpg";
 
 export default function Home() {
   return (
     <div className="home">
       <div className="about-me">
-        <h2 className="about-me__title">Full-stack web developer
-        </h2>
-        <h3 className="about-me__tech-stack">Tech stack:</h3>
         <div className="image-box">
-          <img className="image-box__image" src="https://via.placeholder.com/1000x400"></img>
-          <p className="image-box__text"> 
-          I have been working in tech for 8 years. In my last position, I was a software project manager / scrum master managing the SDLC. I loved learning about web development from my team, so I decided to do finish full-stack web development bootcamp.
-           </p>
-        </div>
+          <img className="image-box__image" src={selfie} alt="Profile picture"></img>
+          <h2 className="image-box__title">Full-stack web developer
+          </h2>
+          <h3 className="image-box__tech-stack">Stack: Javascript, Ruby</h3>
+          </div>
+
+        <ul className="highlights"> 
+          <li>8 years of experience in tech</li> 
+          
+          <li>Last position: software project manager / scrum master.</li>
+         
+          <li>Full-stack bootcamp grad 2023</li>
+           </ul>
       </div>
 
       <div className="projects">

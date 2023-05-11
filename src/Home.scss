@@ -2,6 +2,7 @@
   display:flex;
   flex-direction: column;
   font-family: League Spartan;
+
 }
 
 // About me
@@ -9,45 +10,49 @@
 .about-me {
 display: flex;
 flex-direction: column;
-align-items: center;
+margin-top: 3rem;
 height: 90vh;
 border-bottom: black;
 border-bottom-style: solid;
+align-items: center
 }
 
-.about-me__title {
-  margin-top: 30px;
-  width: 80%;
+.image-box__title {
+  margin-top: 1rem;
+  text-align: center;
 }
 
-.about-me__tech-stack {
-  width: 80%;
-  margin-left: 50px;
+.image-box__tech-stack {
+  margin-left: 2rem;
   margin-bottom:0;
+  text-align: center;
 }
 
 .image-box {
   display:flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .image-box__image {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  width: 80%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 20%;
+  border-radius: 50%;
   position: relative;
     &:hover {
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
-
 }
 
-.image-box__text {
+.highlights {
   text-align: left;
-  width: 80%;
   line-height: 1.8;
   font-style: italic;
+  width: 40%;
+  background-color: #f4f4f4;
+  padding: 1rem 1rem 1rem 4rem;
 }
 
 // Projects
