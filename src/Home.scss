@@ -55,6 +55,11 @@ align-items: center
   padding: 1rem 1rem 1rem 4rem;
 }
 
+.highlights__title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 // Projects
 
 .projects {
@@ -67,13 +72,28 @@ align-items: center
 
 .carousel {
   width: 70%;
-  padding-bottom: 50px;
+  padding-bottom: 4rem;
+
 }
 
 .projects__title {
   margin-bottom: 50px;
   width: 80%;
 }
+
+.carousel-caption { 
+  top: 100%; 
+  color: black;
+}
+
+.carousel-inner { 
+  overflow: visible; 
+}
+
+.carousel-indicators { 
+  bottom: 4rem; }
+
+.carousel-control-next, .carousel-control-prev { bottom: 4rem; }
 
 .carousel__buttons {
   display: flex;

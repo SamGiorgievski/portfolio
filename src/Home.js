@@ -4,6 +4,9 @@ import Carousel from 'react-bootstrap/Carousel';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import selfie from "./assets/profile_pic.jpg";
+import EatSafely from "./assets/EatSafelyPicture.png"
+import Restaurant from "./assets/RestaurantOrderPic.png"
+import Scheduler from "./assets/SchedulerPic.png"
 
 export default function Home() {
   return (
@@ -13,44 +16,53 @@ export default function Home() {
           <img className="image-box__image" src={selfie} alt="Profile picture"></img>
           <h2 className="image-box__title">Full-stack web developer
           </h2>
-          <h3 className="image-box__tech-stack">Stack: Javascript, Ruby</h3>
+          <h3 className="image-box__tech-stack">Javascript, React, Ruby, SQL, Python</h3>
           </div>
-
-        <ul className="highlights"> 
-          <li>8 years of experience in tech</li> 
-          
-          <li>Last position: software project manager / scrum master.</li>
-         
-          <li>Full-stack bootcamp grad 2023</li>
-           </ul>
+        <div className="highlights">
+          <h3 className="highlights__title"> Highlights</h3>
+          <ul> 
+            <li>8 years of experience in tech</li> 
+            <li>Last position: software project manager / scrum master.</li>
+            <li>Full-stack bootcamp grad 2023</li>
+            </ul>
+           </div>
       </div>
 
       <div className="projects">
         <h2 className="projects__title"> Projects</h2>
-        <Carousel className="projects__carousel" interval={null} fade={true} >
+        <Carousel className="projects__carousel" 
+        interval={null} 
+        fade={true}
+        variant="dark">
           <Carousel.Item>
             <img
               className="d-block carousel__image"
-              src="https://via.placeholder.com/600x400"
+              src={EatSafely}
               alt="First slide"
             />
-            <Carousel.Caption>
+            
+            <Carousel.Caption className="captions">
+            <div className="captiontest"> 
               <h3>EatSafely</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </div>
               <div className="carousel__buttons">
                 <Button variant="secondary" className="carousel__button">Info</Button>
                 <Button variant="secondary" className="carousel__button" href="https://github.com/SamGiorgievski/EatSafely">Github</Button>
+                
+                
               </div>
             </Carousel.Caption>
+            
           </Carousel.Item>
           <Carousel.Item>
             <img
               className="d-block carousel__image"
-              src="https://via.placeholder.com/600x400"
+              src={Restaurant}
               alt="Second slide"
             />
 
-            <Carousel.Caption>
+            <Carousel.Caption className="captions">
               <h3>Second slide label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
@@ -58,11 +70,11 @@ export default function Home() {
           <Carousel.Item>
             <img
               className="d-block carousel__image"
-              src="https://via.placeholder.com/600x400"
+              src={Scheduler}
               alt="Third slide"
             />
 
-            <Carousel.Caption>
+            <Carousel.Caption className="captions">
               <h3>Third slide label</h3>
               <p>
                 Praesent commodo cursus magna, vel scelerisque nisl consectetur.
