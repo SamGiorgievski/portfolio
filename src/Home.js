@@ -22,7 +22,7 @@ export default function Home() {
           <h3 className="highlights__title"> Highlights</h3>
           <ul> 
             <li>8 years of experience in tech</li> 
-            <li>Last position: software project manager / scrum master.</li>
+            <li>Last position: software project manager / scrum master</li>
             <li>Full-stack bootcamp grad 2023</li>
             </ul>
            </div>
@@ -44,7 +44,7 @@ export default function Home() {
             <Carousel.Caption className="captions">
             <div className="captiontest"> 
               <h3>EatSafely</h3>
-              <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              <p>Take a picture of a product's ingredient labels, translate it to text, compare it with a list of your personal intolerances, and see if it's safe for consumption  </p>
               </div>
               <div className="carousel__buttons">
                 <Button variant="secondary" className="carousel__button">Info</Button>
@@ -63,7 +63,7 @@ export default function Home() {
             />
 
             <Carousel.Caption className="captions">
-              <h3>Second slide label</h3>
+              <h3>Restaurant Order System</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
           </Carousel.Item>
