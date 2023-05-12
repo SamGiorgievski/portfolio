@@ -29,7 +29,7 @@ export default function Home() {
       </div>
 
       <div className="projects">
-        <h2 className="projects__title"> Projects</h2>
+        <h1 className="projects__title"> Projects</h1>
         <Carousel className="projects__carousel" 
         interval={null} 
         fade={true}
@@ -64,7 +64,7 @@ export default function Home() {
 
             <Carousel.Caption className="captions">
               <h3>Restaurant Order System</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <p>Fill your cart and send food orders as a customer, or login to the restaurant-owner portal to review and accept orders. Users will be notified via twilio api.</p>
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -75,9 +75,9 @@ export default function Home() {
             />
 
             <Carousel.Caption className="captions">
-              <h3>Third slide label</h3>
+              <h3>Interview Scheduler</h3>
               <p>
-                Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+              Single page react app to view available interview timeslots, and create/edit delete appointments with interviewers.
               </p>
             </Carousel.Caption>
           </Carousel.Item>
